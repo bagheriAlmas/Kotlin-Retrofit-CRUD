@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KotlinRetrofitCrud</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="refresh">Refresh</string>
+    <string name="title">title</string>
+    <string name="note">Note</string>
+</resources>

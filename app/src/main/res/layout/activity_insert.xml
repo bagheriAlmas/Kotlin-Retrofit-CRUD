@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".InsertActivity">
+
+    <EditText
+        android:background="#FFEBEE"
+        android:id="@+id/insert_txtTitle"
+        android:hint="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:background="#FFEBEE"
+        android:id="@+id/insert_txtNote"
+        android:hint="Note"
+        android:maxLines="6"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_height="150dp"/>
+
+    <LinearLayout
+        android:gravity="center|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#FFEBEE"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#E1BEE7"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#D1C4E9"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#C5CAE9"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#BBDEFB"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center|top"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#B3E5FC"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#B2EBF2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#B2DFDB"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#C8E6C9"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+        <ImageView
+            android:onClick="getColor"
+            android:layout_margin="5dp"
+            android:background="#F0F4C3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/insert_btnInsert"
+        android:text="Insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
